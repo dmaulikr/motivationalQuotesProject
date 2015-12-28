@@ -8,12 +8,17 @@
 
 /* Begin PBXBuildFile section */
 		86DE5F4F1C3115C200C38EAE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DE5F4E1C3115C200C38EAE /* AppDelegate.swift */; };
-		86DE5F511C3115C200C38EAE /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DE5F501C3115C200C38EAE /* ViewController.swift */; };
 		86DE5F541C3115C200C38EAE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86DE5F521C3115C200C38EAE /* Main.storyboard */; };
 		86DE5F561C3115C200C38EAE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 86DE5F551C3115C200C38EAE /* Assets.xcassets */; };
 		86DE5F591C3115C200C38EAE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 86DE5F571C3115C200C38EAE /* LaunchScreen.storyboard */; };
 		86DE5F641C3115C300C38EAE /* motivationalQuotesProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DE5F631C3115C300C38EAE /* motivationalQuotesProjectTests.swift */; };
 		86DE5F6F1C3115C300C38EAE /* motivationalQuotesProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DE5F6E1C3115C300C38EAE /* motivationalQuotesProjectUITests.swift */; };
+		86DE5F821C31186700C38EAE /* submitQuoteScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DE5F7C1C31186700C38EAE /* submitQuoteScreenController.swift */; };
+		86DE5F831C31186700C38EAE /* appearanceSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DE5F7D1C31186700C38EAE /* appearanceSettings.swift */; };
+		86DE5F841C31186700C38EAE /* quoteStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DE5F7E1C31186700C38EAE /* quoteStore.swift */; };
+		86DE5F851C31186700C38EAE /* editQuoteScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DE5F7F1C31186700C38EAE /* editQuoteScreenController.swift */; };
+		86DE5F861C31186700C38EAE /* mainQuoteScreenController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DE5F801C31186700C38EAE /* mainQuoteScreenController.swift */; };
+		86DE5F871C31186700C38EAE /* quoteClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86DE5F811C31186700C38EAE /* quoteClass.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +41,6 @@
 /* Begin PBXFileReference section */
 		86DE5F4B1C3115C200C38EAE /* motivationalQuotesProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = motivationalQuotesProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86DE5F4E1C3115C200C38EAE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		86DE5F501C3115C200C38EAE /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		86DE5F531C3115C200C38EAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		86DE5F551C3115C200C38EAE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		86DE5F581C3115C200C38EAE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,12 @@
 		86DE5F6A1C3115C300C38EAE /* motivationalQuotesProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = motivationalQuotesProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		86DE5F6E1C3115C300C38EAE /* motivationalQuotesProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = motivationalQuotesProjectUITests.swift; sourceTree = "<group>"; };
 		86DE5F701C3115C300C38EAE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		86DE5F7C1C31186700C38EAE /* submitQuoteScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = submitQuoteScreenController.swift; sourceTree = "<group>"; };
+		86DE5F7D1C31186700C38EAE /* appearanceSettings.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = appearanceSettings.swift; sourceTree = "<group>"; };
+		86DE5F7E1C31186700C38EAE /* quoteStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = quoteStore.swift; sourceTree = "<group>"; };
+		86DE5F7F1C31186700C38EAE /* editQuoteScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = editQuoteScreenController.swift; sourceTree = "<group>"; };
+		86DE5F801C31186700C38EAE /* mainQuoteScreenController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = mainQuoteScreenController.swift; sourceTree = "<group>"; };
+		86DE5F811C31186700C38EAE /* quoteClass.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = quoteClass.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,7 +108,12 @@
 			isa = PBXGroup;
 			children = (
 				86DE5F4E1C3115C200C38EAE /* AppDelegate.swift */,
-				86DE5F501C3115C200C38EAE /* ViewController.swift */,
+				86DE5F7C1C31186700C38EAE /* submitQuoteScreenController.swift */,
+				86DE5F7D1C31186700C38EAE /* appearanceSettings.swift */,
+				86DE5F7E1C31186700C38EAE /* quoteStore.swift */,
+				86DE5F7F1C31186700C38EAE /* editQuoteScreenController.swift */,
+				86DE5F801C31186700C38EAE /* mainQuoteScreenController.swift */,
+				86DE5F811C31186700C38EAE /* quoteClass.swift */,
 				86DE5F521C3115C200C38EAE /* Main.storyboard */,
 				86DE5F551C3115C200C38EAE /* Assets.xcassets */,
 				86DE5F571C3115C200C38EAE /* LaunchScreen.storyboard */,
@@ -256,8 +271,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86DE5F511C3115C200C38EAE /* ViewController.swift in Sources */,
+				86DE5F831C31186700C38EAE /* appearanceSettings.swift in Sources */,
+				86DE5F821C31186700C38EAE /* submitQuoteScreenController.swift in Sources */,
+				86DE5F861C31186700C38EAE /* mainQuoteScreenController.swift in Sources */,
+				86DE5F841C31186700C38EAE /* quoteStore.swift in Sources */,
+				86DE5F851C31186700C38EAE /* editQuoteScreenController.swift in Sources */,
 				86DE5F4F1C3115C200C38EAE /* AppDelegate.swift in Sources */,
+				86DE5F871C31186700C38EAE /* quoteClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -398,6 +418,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = motivationalQuotesProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.anthonyau.motivationalQuotesProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -409,6 +430,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = motivationalQuotesProject/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.anthonyau.motivationalQuotesProject;
 				PRODUCT_NAME = "$(TARGET_NAME)";
